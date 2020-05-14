@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpForm</title>
+</head>
+
+<body>
+    <form>
+        <label>Email<input type="text" name="email"></label>
+
+        <label>Password<input type="text" name="passowrd"></label>
+
+        <label>Github Username<input type="text" name="githubusername"></label>
+
+        <fieldset>
+            <legend>Which account you have?</legend>
+            <input id="enterprise" type="radio" name="location" value="Enterprise">
+            <label for="enterprise">Enterprise</label><br />
+
+            <input id="pro" type="radio" name="location" value="Pro">
+            <label for="pro">Pro</label><br />
+
+            <input id="free" type="radio" name="location" value="Free">
+            <label for="free">Free</label><br/>
+
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input id="technology-cli" type="checkbox" name="technology" value="Command Line">
+            <label for="technology-js">Remember Me</label><br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
